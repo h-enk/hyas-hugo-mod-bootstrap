@@ -1,5 +1,5 @@
-# [[imports]]
-#   path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
+[[imports]]
+  path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
 
 [[mounts]]
   source = "node_modules/@hyas/core/assets"

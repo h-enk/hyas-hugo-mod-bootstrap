@@ -8,7 +8,7 @@
     "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
     "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache --buildDrafts",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
-    "init": "exec-bin node_modules/.bin/hugo/hugo init",
+    "mod:init": "exec-bin node_modules/.bin/hugo/hugo mod init",
     "lint": "npm run lint:scripts && npm run lint:styles && npm run lint:markdown",
     "lint:scripts": "eslint --cache config",
     "lint:styles": "stylelint --cache \"assets/scss/**/*.{css,sass,scss}\"",
